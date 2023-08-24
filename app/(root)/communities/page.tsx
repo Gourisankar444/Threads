@@ -5,7 +5,7 @@ import Searchbar from "@/components/shared/Searchbar";
 import Pagination from "@/components/shared/Pagination";
 import CommunityCard from "@/components/cards/CommunityCard";
 
-import { fetchUsers } from "@/lib/actions/user.actions";
+import { fetchUser } from "@/lib/actions/user.actions";
 import { fetchCommunities } from "@/lib/actions/community.actions";
 
 async function Page({
@@ -16,7 +16,7 @@ async function Page({
   const user = await currentUser();
   if (!user) return null;
 
-  const userInfo = await fetchUsers(user.id);
+  const userInfo = await fetchUser(user.id);
   if (!userInfo?.onboarded) redirect("/onboarding");
 
   const result = await fetchCommunities({

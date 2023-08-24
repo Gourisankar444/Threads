@@ -29,7 +29,7 @@ interface Props {
 function Comment({ threadId, currentUserImg, currentUserId }: Props) {
   const pathname = usePathname();
 
-  const form = useForm({
+  const form = useForm<z.infer<typeof CommentValidation>>({
     resolver: zodResolver(CommentValidation),
     defaultValues: {
       thread: "",
