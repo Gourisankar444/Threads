@@ -1,3 +1,29 @@
+Live Link: https://threads-nine-hazel.vercel.app/
+
+Homepage:
+![alt text](Screenshot/Homepage.png)
+
+Create Post:
+![alt text](<Screenshot/Create Thread.png>)
+
+Profile Page:
+![alt text](<Screenshot/Profile Pg.png>)
+
+Activity Page:
+![alt text](Screenshot/Activity.png)
+
+Community Page:
+![alt text](Screenshot/Communities.png)
+
+Community Details Page:
+![alt text](<Screenshot/Community Details Pg.png>)
+
+Login:
+![alt text](Screenshot/Login.png)
+
+Sign Up:
+![alt text](<Screenshot/Sign Up.png>)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -33,4 +59,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Threads
-Live Demo: https://threads-nine-hazel.vercel.app/
